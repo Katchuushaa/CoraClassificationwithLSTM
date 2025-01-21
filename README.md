@@ -74,7 +74,8 @@ The **Cora Dataset** was used, which consists of 2,708 scientific articles. Each
 This research achieved higher accuracy compared to prior methods:
 - Graph Convolutional Networks (GCN): 81.5%
 - Graph Attention Networks (GAT): 83%
-- Previous LSTM studies: ~90%
+- SplineCNN : 89.48%
+- Graph Convolutional Networks with Kronecker-Factored Approximate Curvature (GCN Adam-KFAC) : 90.16% 
 
 ### Confusion Matrix
 The confusion matrix analysis showed high precision and recall for all seven classes, with most scores exceeding 97%.
@@ -94,7 +95,7 @@ The research demonstrates that LSTM combined with FastText embeddings effectivel
 If you use this repository or dataset, please cite:
 
 ```
-Daffa Fikri. 2024. Klasifikasi Abstrak Artikel Ilmiah pada Dataset Cora Menggunakan Long Short Term Memory. Institut Pertanian Bogor.
+Daffa Fikri. 2025. Klasifikasi Abstrak Artikel Ilmiah pada Dataset Cora Menggunakan Long Short Term Memory. Institut Pertanian Bogor.
 ```
 
 ---
